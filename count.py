@@ -29,7 +29,7 @@ name = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/header/s
 username = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/header/section/div[1]/h2').text
 bio = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/header/section/div[2]/span').text
 
-imgsrc = driver.find_element_by_xpath('//html/body/div[1]/section/main/div/header/div/div/div/button/img[contains(@class, "be6sR")]')
+imgsrc = driver.find_element_by_xpath('//html/body/div[1]/section/main/div/header/div/div/div/button/img[contains(@class, "")]')
 pimg = imgsrc.get_attribute("src")
 
 mydb = mysql.connector.connect(
